@@ -37,8 +37,8 @@ public class ProductTable{
         quantityColumn.setCellValueFactory(new PropertyValueFactory<>("quantity"));
 
         table = new TableView<>();
-        table.setMinHeight(700);
-        table.setMaxHeight(700);
+        table.setMinHeight(600);
+        table.setMaxHeight(600);
         table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
         table.setMinWidth(600);
         table.setItems(LoadProducts.getProducts(databaseHandler));

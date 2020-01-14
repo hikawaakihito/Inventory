@@ -90,8 +90,8 @@ public class CatTree{
         }
 
         tree = new TreeView<>(root);
-        tree.setMinHeight(700);
-        tree.setMaxHeight(700);
+        tree.setMinHeight(600);
+        tree.setMaxHeight(600);
         tree.setShowRoot(true);
     }
 

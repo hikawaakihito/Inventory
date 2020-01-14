@@ -36,7 +36,7 @@ public class Inventory extends Application{
         layout.setLeft(CatTree.getCatTree(databaseHandler));
         layout.setCenter(ProductTable.getProductTable(databaseHandler));
 
-        mainScene = new Scene(layout, 1100, 800);
+        mainScene = new Scene(layout, 1100, 750);
         mainScene.addEventHandler(KeyEvent.KEY_PRESSED, e -> {
             if (e.getCode() == KeyCode.ENTER) {
                 Node focusOwner = mainScene.getFocusOwner();
